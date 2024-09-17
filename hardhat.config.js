@@ -10,7 +10,16 @@ const {API_URL, PRIVATE_KEY} = process.env;
 
 
 module.exports = {
-  solidity: "0.8.18",
+  solidity: {
+    version: "0.8.18",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 100,
+      },
+      viaIR: true,
+    },
+  },
   networks:{
     hardhat:{
       chainId: 1337

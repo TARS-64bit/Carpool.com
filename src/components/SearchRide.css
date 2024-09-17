@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "geo";
+    src: url("./font/geomanist-regular-webfont.ttf");
+}
+
+.search_ride{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 12px #aaa;
+    background-color: #fff;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.search_inp{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ring{
+    margin: 20px;
+    margin-right: 0px;
+    font: 1000 18px geo;
+    color: #888;
+}
+
+.search_inp_txt{
+    background: none;
+    border: none;
+    margin: 15px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    font: 600 18px geo;
+    color: #666;
+    border-radius: 10px;
+    outline: none;
+}
+
+.search_inp_txt::placeholder{
+    color: #aaa;
+}
+
+.search_inp_txt:focus{
+    color: #222;
+}
+
+.search_date{
+    background-color: #fff;
+    margin: 5px;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: solid 2px #666;
+    font: 15px geo;
+    color: #666;
+}
+
+.search_date:focus{
+    color: #222;
+    border-color: #222;
+}
+
+.search_button{
+    padding: 20px 50px;
+    background-color: #d3962c;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 10px;
+    font: 600 18px geo;
+    cursor: pointer;
+    border: none;
+}
+
+.search_button:hover{
+    background-color: #ffa70f;
+}
+
+@media only screen and (max-width: 600px) {
+    .ring{
+        font-size: 10px;
+    }
+    .search_ride{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        
+    }
+
+    .search_inp{
+        margin-top: 20px;
+    }
+
+    .search_inp_txt{
+        font-size: 16px;
+        width: auto;
+    }
+    .search_date{
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    .search_button{
+        width: 100%;
+        letter-spacing: 1px;
+        position:relative;
+        height: 100%;
+        margin: 0px;
+        left: 0;
+    }
+    .map{
+        margin: 0px;
+        
+    }
+  }

@@ -1,0 +1,11 @@
+.rides_section{
+    margin: auto;
+}
+
+.rides-noRides{
+    width: 40vw;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    
+}

@@ -1,0 +1,265 @@
+@font-face {
+    font-family: geo;
+    src: url(../font/geomanist-regular-webfont.ttf);
+}
+.card {
+    height:fit-content;
+    background-color: white;
+    width: 576px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 12px #aaa;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    font-family: geo; 
+    padding: 20px;
+}
+
+.card-address{
+    font-size: 13px;
+    color: #777;
+    
+}
+
+.card-fare{
+    margin: 2px;
+}
+
+.card:hover{
+    box-shadow: 1px 3px 20px #999;
+}
+
+.dm{
+    margin: 20px;
+    
+}
+
+.ca-p-a {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.cap-a {
+    display: flex;
+    
+    align-items: center;
+    border-radius: 12px 0px 0px 0px;
+}
+
+.cap-1 {
+    
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.d1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.d2 {
+    font-size: 19px;
+    color: grey;
+}
+
+.dm-2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cap-b {
+    
+    display: flex;
+    align-items: center;
+}
+
+.d1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.dm-2 {
+    font-size: 19px;
+}
+
+.cap-2 {
+    display: flex;
+    font-size: 20px;
+    padding: 23px;
+    font-weight: bold;
+    border-radius: 0px 12px 0px 0px;
+}
+
+.ca-p-b {
+    height: 62.4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.ic-11 {
+    display: flex;
+    align-items: center;
+}
+
+.ic-1 {
+    font-size: 41px;
+    padding: 12px;
+}
+
+.ic-3 {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.profile_pic_2{
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+}   
+
+.info_pic{
+    width: 23px;
+    height: 23px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .card {
+        background-color: white;
+        max-width: 80vw !important;
+        border-radius: 12px;
+        box-shadow: 1px 3px 12px #aaa;
+        margin-top: 30px;
+        cursor: pointer;
+        padding: 10px;
+        transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    }
+    
+    .card:hover{
+        box-shadow: 1px 3px 20px #999;
+    }
+
+    
+.card-address{
+    font-size: 11px;
+    color: #777;
+    
+    max-height: 3.6em;
+    overflow: hidden;
+}
+
+    
+    .ca-p-a {
+        height: 145.6px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 12px 12px 0px 0px;
+    }
+    
+    .cap-a {
+        width: auto !important;
+        margin: auto 15px;
+        height: 72.8px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 12px 0px 0px 0px;
+    }
+    
+    .cap-1 {
+        width: auto !important;
+        
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .d1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .d2 {
+        font-size: 14px;
+        color: grey;
+        margin-top: 7px;
+    }
+    
+    .dm-2 {
+        font-size: 14px;
+        margin: auto 10px;
+    }
+    
+    .cap-b {
+        width: auto !important;
+        height: 72.8px;
+        margin: auto 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .d1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .dm-2 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .dm{
+        margin-left: 0px;
+    }
+    
+    .cap-2 {
+        font-size: 16px;
+        padding: 10px 10px 0px 0px;
+        
+        font-weight: bold;
+        border-radius: 0px 12px 0px 0px;
+    }
+    
+    .ca-p-b {
+        height: 62.4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 0px 0px 12px 12px;
+    }
+    
+    .ic-11 {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile_pic_2{
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }   
+
+    .info_pic{
+        width: 18px;
+        height: 18px;
+        margin: 10px;
+    }
+
+    .ic-1 {
+        padding: 0px;
+    }
+    
+    .ic-2 {
+        font-size: 14px;
+    }
+    
+    .ic-3 {
+        padding: 10px;
+    }
+    
+    
+    
+}

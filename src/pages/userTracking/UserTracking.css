@@ -1,0 +1,11 @@
+.map-container {
+    height: 400px;
+  }
+  .tracking_details_wrapper{
+    padding: 20px;
+  }
+
+  .tracking_details{
+    display: flex;
+    justify-content: space-between;
+  }

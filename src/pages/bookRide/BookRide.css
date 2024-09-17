@@ -1,0 +1,590 @@
+@font-face {
+    font-family: geo;
+    src: url(../../components/font/geomanist-regular-webfont.ttf);
+}
+
+.mas-a {
+    display: flex;
+    flex-direction: column;
+    font-family: geo;
+}
+
+.p-1 {
+    height: 10vh;
+    font-family: geo;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.p-2 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.p-4 {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    background-color: #ededed;
+}
+
+.p-11 {
+    background-color: transparent;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p-12 {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.p-13 {
+    background-color: transparent;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p-14 {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.p-21 {
+    background-color: transparent;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p-22 {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+.p-23 {
+    background-color: transparent;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p-24 {
+    background-color: transparent;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.p-2-1 {
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+}
+
+.pr-1 {
+    display: flex;
+}
+
+.p-2-2 {
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+}
+
+.p-2-2:hover {
+    background-color: #EDEDED;
+    cursor: pointer;
+}
+
+.p-2-1:hover {
+    cursor: pointer;
+    background-color: #EDEDED;
+}
+
+.pr-2 {
+    display: flex;
+}
+
+#psg-1 {
+    margin-top: 1px;
+    font-size: 15px;
+    color: #000000a8;
+}
+
+#psg-2 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #000000a8;
+}
+
+/* .pm-1{
+    background-color: #ffffff;
+    border-bottom: 5px solid #EDEDED;
+} */
+
+#hr-1 {
+    width: 100vh;
+    padding: 5px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 15px;
+}
+
+#hr-2 {
+    width: 100vh;
+    background-color: #EDEDED;
+    border-radius: 15px;
+}
+
+.p-m-1 {
+    color: rgb(112, 140, 145);
+    font-size: 20px;
+}
+
+.p-m-2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pmmas {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pm-3 {
+    padding: 35px;
+    display: flex;
+    width: 100vh;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pma-3-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 11vh;
+    justify-content: space-between;
+}
+
+
+
+.pm-4 {
+    width: 100vh;
+    font-size: 16px;
+}
+
+.pm-5 {
+    color: #d3962c;
+    width: 100vh;
+    
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.pm-5:hover {
+    color: #ffb639;
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+#li-1 {
+    list-style-type: none;
+    
+    font-size: 17px;
+    margin: 25px;
+    display: flex;
+    color: grey;
+    align-items: center;
+}
+
+.lst-2 {
+    
+    font-size: 21px;
+    margin: 50px 0px 20px 0px;
+    text-align: initial;
+}
+
+#pgp-1 {
+    font-size: 14px;
+    margin: 0px;
+    color: grey;
+}
+
+.pm-7-1 {
+    padding: 15px;
+    color: #d3962c;
+    font-size: 20px;
+    
+
+}
+
+.pm-7-1:hover {
+    color: #ffa70f;
+    cursor: pointer;
+}
+
+.p-3 {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 1px 0px #555;
+}
+
+.btn-con {
+    background: #d3962c;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+    display: flex;
+    border-radius: 50px;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-con:hover {
+    background: #ffa70f;
+    cursor: pointer;
+}
+
+.gr-t {
+    width: 130vh;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#li-2 {
+    list-style-type: none;
+    
+    font-size: 15px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#li-2g {
+    list-style-type: none;
+    
+    font-size: 15px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#li-3 {
+    list-style-type: none;
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 25px 30px 25px;
+}
+
+#li-4 {
+    list-style-type: none;
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 25px 30px 25px;
+}
+
+.g-r-1 {
+    
+    font-size: 20px;
+    padding: 20px;
+}
+
+.g-r-2 {
+    
+    font-size: 20px;
+    padding: 20px 40px;
+}
+
+.gr-1 {
+    display: flex;
+}
+
+.ico-fb {
+    display: flex;
+}
+
+.profile_pic_2-1 {
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.info_pic_1 {
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.ban_pic_1 {
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+#footerSelectLocale {
+    padding: 15px;
+    font-size: 16px;
+    width: -webkit-fill-available;
+    margin: 0px 27px;
+
+}
+
+.p-f {
+    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    height: 2vh;
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .p-1 {
+        height: 10vh;
+        font-family: "Arial", Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .p-2 {
+        height: 52vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .p-2-1 {
+        display: flex;
+        width: 100vh;
+        justify-content: center;
+    }
+
+    .p-2-2 {
+        display: flex;
+        width: 100vh;
+        justify-content: center;
+    }
+
+    .p-11 {
+        font-size: 14px;
+    }
+
+    .p-12 {
+        font-size: 14px;
+    }
+
+    .p-13 {
+        font-size: 14px;
+        max-width: 200px;
+    }
+
+    .p-21 {
+        font-size: 14px;
+    }
+
+    .p-22 {
+        font-size: 14px;
+    }
+
+    .p-23 {
+        font-size: 14px;
+    }
+
+    .p-m-1 {
+        font-size: 14px;
+    }
+
+    #psg-1 {
+        font-size: 11px;
+    }
+
+    #psg-2 {
+        font-size: 11px;
+    }
+
+    .pmmas {
+        width: 100vw;
+    }
+
+    .p-m-2 {
+        font-size: 17px;
+    }
+
+    .p-2-2 {
+        width: 97%;
+    }
+
+    #hr-1 {
+        width: 95vw;
+    }
+
+    #hr-2 {
+        width: 95vw;
+    }
+
+    .pm-4 {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .pm-3 {
+        width: 100vw;
+    }
+
+    .profile_pic_2-1 {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }
+
+    .info_pic_1 {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }
+
+    .ban_pic_1 {
+        width: 28px;
+        height: 28px;
+        margin: 10px;
+    }
+
+    .pm-5 {
+        color: #d3962c;
+        width: 100vw;
+        
+        font-size: 14px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .gr-t {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #li-1 {
+        font-size: 14px;
+        margin: 0;
+        width: auto;
+    }
+
+    #li-3 {
+        font-size: 10px;
+    }
+
+    #li-4 {
+        font-size: 10px;
+    }
+
+    #li-2 {
+        font-size: 8px;
+    }
+
+    #li-2g {
+        margin: 0;
+    }
+
+    #footerSelectLocale {
+        padding: 10px;
+        font-size: 12px;
+        margin: 0px 20px;
+        width: 40%;
+    }
+
+    .ico-fb {
+        margin: 0;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .gr-2 {
+        display: flex;
+    }
+
+    .lst-2 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #pgp-1 {
+        font-size: 12px;
+    }
+
+    .pm-7-1 {
+        font-size: 15px;
+        width: 100vw;
+        text-align: end;
+    }
+
+    #li-2g svg{
+        width: 28px;
+    }
+
+    .p-f{
+        font-size: 10px;
+    }
+}

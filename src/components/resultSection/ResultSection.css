@@ -1,0 +1,15 @@
+.result_section{
+    margin: auto;
+    margin-top: 60px;
+    width: fit-content;
+    display: flex;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .result_section{
+        flex-direction: column;
+        justify-content: space-between;
+         margin-top: 45px;
+    }
+}

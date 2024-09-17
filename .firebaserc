@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "carpool": "carpool-1-be",
+    "default": "carpool-1-be",
+    "Carpool": "carpool-1-be",
+    "carpool-dapp": "carpool-1-be"
+  },
+  "targets": {}
+}

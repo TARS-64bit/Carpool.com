@@ -1,0 +1,16 @@
+.map1{
+    width: 60vw;
+    height: 80vh;
+    
+    right: 0;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+    .map1{
+        width: 100vw;
+        height: 70vh;
+    }
+}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: geo;
+    src: url(../../pages/userDetails/fonts/geomanist-regular-webfont.ttf);
+}
+
+.alert-box{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 20px;
+}
+
+
+.alert-text{
+    font: 15px geo;
+    margin: 20px;
+}
+
+.alert-button{
+    border: none;
+    background-color: #666;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #eee;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    margin-left: 20px;
+}
+
+
+.alert-button:hover{
+    background-color:#d3962c;
+}
+
+@media (max-width: 600px) {
+    .alert-box{
+        min-width: 70%;
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95254b3f.css",
+    "main.js": "/static/js/main.b6771a9f.js",
+    "static/media/bg3.jpeg": "/static/media/bg3.1239dc859dcbb1359c79.jpeg",
+    "static/media/24744.jpg": "/static/media/24744.e3132e45a1c1fd0ed619.jpg",
+    "static/media/bg.jpg": "/static/media/bg.614cb4d8c1601d10ced6.jpg",
+    "static/media/3644592-.png": "/static/media/3644592-.500b2545c8f36ea35d0a.png",
+    "static/media/taxi3.png": "/static/media/taxi3.ad59b7b3c6d86dff0749.png",
+    "static/media/playsotre.png": "/static/media/playsotre.5a208745072a6e492c35.png",
+    "static/media/geomanist-regular-webfont.ttf": "/static/media/geomanist-regular-webfont.dfc15950047391892e0d.ttf",
+    "static/media/no-pets.png": "/static/media/no-pets.004f0d7ea717036fa6d2.png",
+    "static/media/info_pic.png": "/static/media/info_pic.fdb319cceeba3275fcc8.png",
+    "static/media/statistic.png": "/static/media/statistic.c8d07169fcc6ae124140.png",
+    "static/media/profile_pic.png": "/static/media/profile_pic.3851143cb81cf5063d4c.png",
+    "static/media/no-smoking.png": "/static/media/no-smoking.b518700b0763bf96ac5f.png",
+    "static/media/qr-code.svg": "/static/media/qr-code.4da3af76921ed6cdafb2ef0485c3b039.svg",
+    "static/media/logo3.png": "/static/media/logo3.a9291dea37d84cc4ab24.png",
+    "static/media/search.png": "/static/media/search.1b5289eac4131a0f5f99.png",
+    "index.html": "/index.html",
+    "main.95254b3f.css.map": "/static/css/main.95254b3f.css.map",
+    "main.b6771a9f.js.map": "/static/js/main.b6771a9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95254b3f.css",
+    "static/js/main.b6771a9f.js"
+  ]
+}

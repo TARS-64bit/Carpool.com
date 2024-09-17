@@ -1,0 +1,144 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+
+.signbutton {
+    background-color: #4885ed;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold;
+}
+
+.logo {
+    margin-top: 8vh;
+    margin-bottom: 20px;
+}
+
+.bar {
+    width: 575px;
+    border-radius: 30px;
+    border: 10px solid #f7a516;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.searchbar {
+    height: 45px;
+    border: none;
+    padding: 10px 13px;
+    width: 500px;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.voice {
+    height: 31px;
+    position: relative;
+    top: 6px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #fef5e7;
+    border: none;
+    color: #595959;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.button:hover {
+    border: 1px solid #f8b954;
+    padding: 9px 19px;
+    color: #404040;
+}
+
+.button:focus {
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+#hbr-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000046;
+}
+
+.master-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#map {
+    width: 125vh;
+}
+
+#i-frma{
+    width: 100%
+}
+
+#btn-cns{
+    margin-top: 30px;
+    padding: 13px 23px;
+    border: none;
+    border-radius: 18px;
+    background-color: #f7b23b;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #262626;
+}
+
+#btn-cns:hover{
+    box-shadow: 0px 0px 3px 1px #bfbfbf;
+    background-color:  #f59f0a;
+    color: #000;
+    
+}
+
+.btn-cn{
+    display: flex;
+    justify-content: center;
+}

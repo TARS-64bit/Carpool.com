@@ -1,0 +1,26 @@
+.sort_option{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 20px;
+    width: 300px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.2s;
+    user-select: none;
+}
+
+.sort_radio{
+    display: flex;
+    margin-left: auto;
+    
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .sort_option{
+        width: min-content;
+    }
+}
